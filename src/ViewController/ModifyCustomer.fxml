@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.ModifyCustomerController">
+    <children>
+        <Label fx:id="title" layoutX="14.0" layoutY="14.0" text="Modify Customer">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="name" layoutX="35.0" layoutY="67.0" text="Customer Name">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <TextField fx:id="textName" layoutX="190.0" layoutY="57.0" prefHeight="40.0" prefWidth="150.0" promptText="Customer Name">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font></TextField>
+        <Label fx:id="address" layoutX="35.0" layoutY="122.0" text="Address">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <TextField fx:id="textAddress" layoutX="190.0" layoutY="112.0" prefHeight="40.0" prefWidth="150.0" promptText="Address">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font></TextField>
+        <Label fx:id="address2" layoutX="35.0" layoutY="177.0" text="Address (2nd Line)">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textAddress2" layoutX="190.0" layoutY="167.0" prefHeight="40.0" prefWidth="150.0" promptText="Address (2nd Line)">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="city" layoutX="35.0" layoutY="232.0" text="City">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCity" layoutX="190.0" layoutY="222.0" prefHeight="40.0" prefWidth="150.0" promptText="City">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font></TextField>
+        <Label fx:id="country" layoutX="35.0" layoutY="287.0" text="Country">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountry" layoutX="190.0" layoutY="277.0" prefHeight="40.0" prefWidth="150.0" promptText="Country">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="postalCode" layoutX="35.0" layoutY="339.0" text="Postal Code">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textPostalCode" layoutX="190.0" layoutY="332.0" prefHeight="40.0" prefWidth="150.0" promptText="Postal Code">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="phone" layoutX="35.0" layoutY="391.0" text="Phone">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textPhone" layoutX="190.0" layoutY="387.0" prefHeight="40.0" prefWidth="150.0" promptText="Phone">
+            <font>
+                <Font name="System Italic" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="saveBtn" layoutX="260.0" layoutY="452.0" mnemonicParsing="false" onAction="#saveHandler" prefHeight="25.0" prefWidth="65.0" text="Save" />
+        <Button fx:id="cancelBtn" alignment="CENTER" layoutX="340.0" layoutY="452.0" mnemonicParsing="false" onAction="#cancelHandler" prefHeight="25.0" prefWidth="65.0" text="Cancel" />
+    </children>
+</AnchorPane>

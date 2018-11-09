@@ -1,0 +1,6 @@
+Number of Appointment Types By Month: 
+ 
+2018-11: 1
+Types: This is a test appointment			
+ 
+
